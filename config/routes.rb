@@ -1,7 +1,7 @@
 R2::Application.routes.draw do
  
   resources :articles
- 
+  #map.resources :articles
   root 'welcome#index'
 end
 
